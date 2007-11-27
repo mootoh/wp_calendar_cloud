@@ -75,30 +75,3 @@ function calendar_cloud() {
   print('</div>');
 }
 ?>
-<style>
-/*
- * CSS (example)
- */
-div.calendar-cloud {
-  padding: 0 16px;
-}
-
-div.calendar-cloud div.year {
-  padding-top: 16px;
-  text-align: center;
-  border-bottom: 1px dotted #036;
-  font-size:125%;
-}
-
-div.calendar-cloud div.month {
-  text-align: center;
-}
-
-div.calendar-cloud span {
-  padding: 4px;
-}
-
-div.calendar-cloud span.absent {
-  color:#bbb;
-}
-</style>
