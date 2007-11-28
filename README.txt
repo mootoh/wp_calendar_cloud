@@ -8,6 +8,8 @@ Tested up to: 2.3.0
 A Calendar visualization like TagCloud.
 
 == Description ==
+A WordPress TemplateTag plugin that displays yearly calendars
+containing 12 months weighed by their post counts, like Tag Cloud.
 
 == Installation ==
 
@@ -15,14 +17,8 @@ A Calendar visualization like TagCloud.
 2. Activate the plugin through the 'Plugins' menu in WordPress
 3. Place `<?php calendar_cloud(); ?>` in your templates
 
-== Frequently Asked Questions ==
+Use css to customize look & feel. See an example in style.css.
 
 == Screenshots ==
 
 1. here is an example of mine:
-
-== Arbitrary section ==
-
-You may provide arbitrary sections, in the same format as the ones above.  This may be of use for extremely complicated
-plugins where more information needs to be conveyed that doesn't fit into the categories of "description" or
-"installation."  Arbitrary sections will be shown below the built-in sections outlined above.
