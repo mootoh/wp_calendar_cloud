@@ -36,7 +36,6 @@ function calendar_cloud() {
     }
     $ret[$arcresult->year][$arcresult->month] = $arcresult->posts;
   }
-  array_pop($ret);
 
   $min_count = min($counts);
   $spread = max($counts) - $min_count;
@@ -49,6 +48,8 @@ function calendar_cloud() {
 
   print ('<div class="calendar-cloud">');
   foreach ($ret as $year => $val) {
+    if (0 == $year) continue;
+    
     print ('<div class="year">'.$year.'</div>');
     print ('<div class="month">');
     for ($i=1; $i<=12; $i++) {
